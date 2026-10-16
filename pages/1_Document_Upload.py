@@ -1,0 +1,41 @@
+import streamlit as st
+from dotenv import load_dotenv
+from services.ai_service import AIService
+from services.pdf_processing_service import process_pdf
+
+load_dotenv()
+
+if st.button("⬅ Back to Main Menu"):
+    st.switch_page("StudySpark.py")
+
+st.title("Document Upload")
+uploaded_file = st.file_uploader(
+    "Upload a document",
+    type=["pdf"]
+)
+
+
+if uploaded_file:
+    pdf_bytes = uploaded_file.read()
+    with st.spinner("Processing pdf..."):
+        result = st.session_state.ai_service.ai_process_pdf(pdf_bytes)
+
+        # Store in session state for chat
+        st.session_state.pdf_text = result
+        st.session_state.pdf_uploaded = True
+    st.success(f"File '{uploaded_file.name}' uploaded successfully!")
+
+else: st.warning("Please upload a pdf")
+
+
+
+
+
+
+
+
+
+
+
+
+

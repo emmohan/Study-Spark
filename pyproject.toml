@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "Resume and Cover Letter AI Assistant"
+version = "1.0.0"
+description = "blank"
+authors = ["Iurii Sheiman <20231734@novaims.unl.pt>", "Emmanuella Ohanma<20211659@novaims.unl.pt>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11, <3.13"
+streamlit = ">=1.40.0"
+python-dotenv = ">=1.0.0"
+google-genai = ">=1.0.0"
+langfuse = ">=2.0.0"
+pypdf = ">=3.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
