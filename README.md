@@ -24,6 +24,12 @@ StudySpark/
     - Implemented input validation, page navigation and loading indicators to improve the user experience.
     - Testing and optimisation.
     - Bug fixing.
+- ### AI-Powered Quiz Module
+    - Developed an interactive quiz interface using Python and Streamlit, enabling users to generate multiple-choice questions from uploaded PDF documents.
+    - Integrated the quiz interface with a modular AI service, allowing users to configure the number of generated questions.
+    - Implemented session-state management to track question progression, user submissions and answer feedback.
+    - Developed answer-validation logic that compares user responses with generated answers and displays explanations.
+    - Implemented sequential question navigation and controls to guide users through the quiz.
   
 
 ### Collaboration:
