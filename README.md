@@ -17,9 +17,14 @@ StudySpark/
     └── lang_tracing.py             # Langfuse configuration
 ```
 ### My contributions:
-- Developed pages 2 and 4.
-- Testing and optimisation.
-- Bug fixing.
+- #### Document Summarisation Module
+    - Developed an interactive document summarisation interface using Python and Streamlit, allowing users to generate AI-assisted summaries from uploaded PDF content.
+    - Implemented five customisable summary formats and three levels of detail to accommodate different learning preferences.
+    - Integrated the interface with a modular AI service and used Streamlit session state to manage document availability and service initialisation.
+    - Implemented input validation, page navigation and loading indicators to improve the user experience.
+    - Testing and optimisation.
+    - Bug fixing.
+  
 
 ### Collaboration:
 Developed jointly with a project partner(Jur1ng). Application deployment and hosting managed by partner.
