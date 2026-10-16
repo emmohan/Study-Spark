@@ -16,7 +16,13 @@ StudySpark/
 └── utils/                          # Shared utilities
     └── lang_tracing.py             # Langfuse configuration
 ```
+### My contributions:
+- Developed pages 2 and 4.
+- Testing and optimisation.
+- Bug fixing.
 
+### Collaboration:
+Developed jointly with a project partner(Jur1ng). Application deployment and hosting managed by partner.
 
 ## Streamlit.io App Link - https://studyspark-8sj2nxw3ptg8heauugzyps.streamlit.app/
 
