@@ -40,7 +40,7 @@ Developed jointly with a project partner(Jur1ng). Application deployment and hos
 ### 1. Clone and Navigate
 
 ```bash
-git clone https://github.com/Jur1ng/StudySpark.git
+git clone https://github.com/emmohan/Study-Spark.git
 ```
 ```bash
 cd StudySpark
