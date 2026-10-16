@@ -16,25 +16,29 @@ StudySpark/
 └── utils/                          # Shared utilities
     └── lang_tracing.py             # Langfuse configuration
 ```
-### My contributions:
-- #### Document Summarisation Module
-    - Developed an interactive document summarisation interface using Python and Streamlit, allowing users to generate AI-assisted summaries from uploaded PDF content.
-    - Implemented five customisable summary formats and three levels of detail to accommodate different learning preferences.
-    - Integrated the interface with a modular AI service and used Streamlit session state to manage document availability and service initialisation.
-    - Implemented input validation, page navigation and loading indicators to improve the user experience.
-    - Testing and optimisation.
-    - Bug fixing.
-- ### AI-Powered Quiz Module
-    - Developed an interactive quiz interface using Python and Streamlit, enabling users to generate multiple-choice questions from uploaded PDF documents.
-    - Integrated the quiz interface with a modular AI service, allowing users to configure the number of generated questions.
-    - Implemented session-state management to track question progression, user submissions and answer feedback.
-    - Developed answer-validation logic that compares user responses with generated answers and displays explanations.
-    - Implemented sequential question navigation and controls to guide users through the quiz.
-  
+### My Contributions
 
-### Collaboration:
-Developed jointly with a project partner(Jur1ng). Application deployment and hosting managed by partner.
+**AI Feature Development**
+- Developed the document summarisation and interactive quiz-generation features using Python, Streamlit and Google's Gemini API.
+- Extended the existing `AIService` class to support AI-powered summarisation and multiple-choice question generation.
+- Implemented configurable prompts for different summary formats and lengths, as well as structured quiz generation and JSON response parsing.
 
+**Application Development**
+- Built interactive Streamlit interfaces for the Summary and Quiz modules.
+- Implemented session-state management to maintain quiz progression, user submissions and answer feedback.
+- Developed answer-validation logic, sequential question navigation and configurable learning options.
+
+**Testing and Debugging**
+- Participated in application testing, debugging and optimisation to improve functionality and usability.
+
+### Collaboration
+
+Study-Spark was developed collaboratively with [@Jur1ng](https://github.com/Jur1ng).
+
+My project partner established the initial AI service architecture and developed other application components, while I extended the shared service with the 
+AI functionality required for the document summarisation and quiz-generation modules.
+
+The application deployment and hosting were managed by my project partner.
 ## Streamlit.io App Link - https://studyspark-8sj2nxw3ptg8heauugzyps.streamlit.app/
 
 
